@@ -1,0 +1,48 @@
+.commitment{
+    display: flex;
+    width: 1150px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    &__left-side{
+        margin-right: 125px;
+    }
+
+    &__right-side{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 540px;
+        height: 340px;
+        text-align: left;
+
+        &__heading{
+            font-family: "Fraunces", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #333D4B;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 32px;
+        }
+
+        &__text{
+            font-family: "Barlow", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    &__img{
+        border-radius: 8px;
+    }
+}

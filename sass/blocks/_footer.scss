@@ -1,0 +1,72 @@
+.footer{
+    height: 120px;
+    width: 1400px;
+    background-color: #2C343E;
+    margin: 0 auto;
+
+    &-part{
+        display: flex;
+        justify-content: space-between;
+        margin: auto 0;
+        padding-top: 50px;
+    }
+
+    &-left{
+        display: flex;
+        width: 622px;
+        height: 26px;
+        justify-content: space-between;
+        align-items: center;
+
+        &__list{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            width: 283px;
+            height: 15px;
+            display: flex;
+            justify-content: space-between;
+        
+        }
+
+        &-a{
+            text-decoration: none;
+            font-family: "Barlow", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+            color: #83888F;
+
+            &:active{
+                font-family: "Hind Madurai" , "Barlow" , "Arial"  ;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: 0.923077px;
+                text-transform: uppercase;
+                color: #FEFCF7;
+            }
+        
+        }
+    }
+
+    &-wrap-icon{
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+        height: 24px;
+    }
+
+
+}
+.icon-a:active{
+    background: #FDD6BA;
+    width: 24px;
+    height: 24px;
+    
+}

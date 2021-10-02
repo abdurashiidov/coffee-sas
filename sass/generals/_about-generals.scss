@@ -1,0 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hind Madurai",  "Fraunces", "Barlow", "Arial" , sans-serif;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+    flex-grow: 1;
+}

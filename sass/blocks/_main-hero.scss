@@ -1,0 +1,68 @@
+.main__hero{
+    
+    background-image: url(./../img/hero-img.png);
+    max-width: 1280px;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 195px;
+    
+    &--heading-1{
+    margin: 0;
+    padding: 0;
+    height: 145px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 145px/2 - 55px);    
+    font-family: "Fraunces", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+    }
+
+    &--text{
+        margin: 0;
+        padding: 0;
+        width: 440px;
+        height: 78px; 
+        font-family: "Barlow", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin-bottom: 56px;
+    }
+
+    &--btn{
+        font-family: "Fraunces", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px; 
+        text-align: center;
+        color: #FEFCF7;
+        width: 217px;
+        height: 56px;
+        background: #0E8784;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+
+        &:active{
+            background: #66D2CF;
+            border-radius: 6px;
+        }
+    }
+}
+.hero__wrapper{
+    width: 493px;
+    height: 367px;
+    padding-top: 120px;
+    margin-left: 86px;
+}
+/* End of main */

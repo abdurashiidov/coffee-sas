@@ -1,0 +1,121 @@
+/* start works */
+
+
+.works{
+    margin-top: 350px;
+    text-align: left;
+    margin-bottom: 300px;
+  
+    &__heading{
+        font-family: "Fraunces", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        /* margin-bottom: 95px; */
+        margin: 0;
+        padding: 0;
+    } 
+
+    &__line{
+        left: 1.48%;
+        right: 25.79%;
+        top: 22.48%;
+        bottom: 77.35%;
+        border: 2px solid #FDD6BA;
+        width: 760px;
+        height: 1px;
+        margin-bottom: 82px;
+        margin-top: 95px;
+    }
+
+    &__list{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        width: 1045px;
+        height: 565px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -90px;  
+    }
+
+    &__item{
+        width: 285px;
+        height: 130px;
+
+        &::before{
+            content: "";
+            display: block; 
+            width: 31px;
+            height: 31px;
+            /* background-size: contain; */
+            /* margin-top: 103px;
+            margin-left: 136px;
+            margin-bottom: 57px; */
+            background: #FEFCF7;
+            border: 2px solid #0E8784;
+            box-sizing: border-box;
+            border-radius: 50%;
+            transform: translateY(-100px) ;
+        }
+    }
+
+    &__heading-2{
+        width: 90px;
+        height: 72px;
+        font-family: "Fraunces", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        margin-bottom: 38px;
+    }
+
+    &__heading-3{
+        font-family: "Fraunces", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        width: 255px;
+        height: 73px;
+        margin-bottom: 42px;
+    }
+
+    &-text{
+        font-family: "Barlow", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+
+    &__btn{
+        font-family: "Fraunces", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px; 
+        text-align: center;
+        color: #FEFCF7;
+        width: 217px;
+        height: 56px;
+        background: #0E8784;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        margin-top: 35px;
+
+        &:active{
+            background: #66D2CF;
+            border-radius: 6px;
+        }
+    }
+}
+
+/* End of works */

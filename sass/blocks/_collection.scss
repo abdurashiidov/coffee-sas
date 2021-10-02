@@ -1,0 +1,151 @@
+
+
+
+
+
+
+
+
+/* Start our-collection */
+
+.our-collection{
+    background-image: url(./../img/our-collection.png);
+    background-position-y: -62px;
+    background-repeat: no-repeat;
+    /* background-position: center ; */
+    width: 1111px;
+    height: 524.55px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+    
+
+    &__list{
+        display: flex;
+        list-style-type: none;
+        text-align: center;
+        align-self: flex-end;
+    }
+
+    &__list--item1{
+        width: 255px;
+        margin-left: 30px;
+
+        &::before{
+            background-image: url(./../img/pocket-1.png);
+            /* background-position-y: -50px; */
+            transform: translateY(-50px);
+            content: "";
+            display: block; 
+            width: 255px;
+            height: 193px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-left: -34px;
+        }
+
+    }
+
+    &__list--item2{
+        width: 255px;
+        margin-left: 30px;
+
+        &::before{
+            background-image: url(./../img/pocket-2.png);
+            transform: translateY(-50px);
+            content: "";
+            display: block; 
+            width: 255px;
+            height: 193px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-left: -34px;
+        }
+    }
+
+    &__list--item3{
+        width: 255px;
+        margin-left: 30px;
+
+        &::before{
+            background-image: url(./../img/pocket-3.png);
+            transform: translateY(-50px);
+            content: "";
+            display: block; 
+            width: 255px;
+            height: 193px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-left: -34px;
+        }
+    }
+
+    &__list--item4{
+        width: 255px;
+        margin-left: 30px;
+
+        &::before{
+            background-image: url(./../img/pocket-4.png);
+            transform: translateY(-48px);
+            content: "";
+            display: block; 
+            width: 234px;
+            height: 177px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 16px;
+            margin-left: -14px;
+        }
+    }
+
+    &__heading-4{
+        margin: 0;
+        padding: 0;
+        font-family: "Fraunces",  "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;  
+        text-align: center; 
+        color: #333D4B;
+        margin-bottom: 24px;
+        margin-top: 71px;
+    }
+
+    &__text{
+        margin: 0;
+        padding: 0;
+        font-family: "Barlow", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #333D4B;
+        height: 78px;
+    }
+}
+
+/* End of our-collection */
+/* start section-choose */
+
+
+
+/* start footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

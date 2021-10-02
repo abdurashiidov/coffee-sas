@@ -1,0 +1,165 @@
+.section-choose{
+    max-width: 1280px;
+    height: 577px;
+    background: #2C343E;
+    border-radius: 10px;
+    margin-top: 200px;
+
+    &__content{
+        width: 540px;
+        height: 160px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+
+        &__heading{
+            font-family: "Fraunces", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            text-align: center;
+            color: #FEFCF7;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 32px;
+            padding-top: 180px;
+        }
+
+        &__text{
+            margin: 0;
+            padding: 0;
+            font-family: "Barlow", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            width: 528px;
+            height: 80px;
+        }
+    }
+
+    &-boxes{
+        max-width: 1110px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__box{
+        background: #0E8784;
+        border-radius: 8px;
+        width: 350px;
+        height: 382px;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        text-align: center;
+        justify-content: flex-end;
+    }
+
+    &__heading-1{
+        margin: 0;
+        padding: 0;
+        font-family: "Fraunces" "Arial" sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+        padding-bottom: 24px;
+
+        &::before{
+            content: "";
+            background-image: url(./../img/coffee-bean.png);
+            display: block; 
+            width: 72px;
+            height: 72px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 103px;
+            margin-left: 136px;
+            margin-bottom: 57px;
+        }
+    }
+
+    &__heading-2{
+        margin: 0;
+        padding: 0;
+        font-family: "Fraunces" "Arial" sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+        padding-bottom: 24px;
+
+        &::before{
+            content: "";
+            background-image: url(./../img/coffee-present.png);
+            display: block; 
+            width: 72px;
+            height: 72px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 103px;
+            margin-left: 136px;
+            margin-bottom: 57px;
+        }
+    
+    }
+
+    &__heading-3{
+        margin: 0;
+        padding: 0;
+        font-family: "Fraunces" "Arial" sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+        padding-bottom: 24px;
+
+        &::before{
+            content: "";
+            background-image: url(./../img/coffee-car.png);
+            display: block; 
+            width: 72px;
+            height: 72px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 103px;
+            margin-left: 136px;
+            margin-bottom: 57px;
+        }
+    }
+
+    &-text{
+        font-family: "Arial", sans-serif;
+        width: 270px;
+        height: 78px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    
+}
+
+/* End of section-choose */
